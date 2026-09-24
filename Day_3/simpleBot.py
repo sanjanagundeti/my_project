@@ -1,6 +1,6 @@
 import ollama
 while True:
-    question =input("Ask the question":)
+    question =input("Ask the question")
     if question.lower()=="exit":
         break
     response=ollama.chat(
