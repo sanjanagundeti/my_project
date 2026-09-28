@@ -4,7 +4,6 @@ response = ollama.chat(
     messages=[
         {
             "role":"user",
-            "content":"Name only main types of AI with 2 examples and single line discription of each"
         }
     ]
 )
